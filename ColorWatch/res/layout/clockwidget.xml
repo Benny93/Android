@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+    <!--
+    <com.volbit.ColorWatch.MyClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/digitalClock" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textSize="40sp"
+
+            /> -->
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="19:19:19"
+            android:id="@+id/colorclock"
+            android:textSize="70sp"
+            android:paddingTop="50dp"
+            android:paddingBottom="60dp"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textColor="@android:color/white"
+              android:textSize="26sp"
+              android:id="@+id/hexcodelabel"
+              android:text="#ffffff"
+
+              android:fontFamily="sans-serif-light"
+              android:layout_alignBottom="@+id/colorclock" android:layout_alignParentLeft="true"
+              android:layout_marginBottom="20dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:textSize="24sp"
+              android:gravity="center"
+
+              android:paddingTop="20dp"
+            android:text="Do 12.12.15"
+            android:textColor="@android:color/white"
+              android:fontFamily="sans-serif-light"
+              android:id="@+id/datelabel"
+              />
+
+
+</RelativeLayout>
